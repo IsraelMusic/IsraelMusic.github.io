@@ -200,12 +200,12 @@ p { color: var(--muted); line-height: 1.65; }
 .release-heroes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
 .release-hero {
   position: relative;
-  min-height: 19rem;
+  min-height: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: .35rem;
-  padding: 1.4rem;
+  gap: .25rem;
+  padding: 1rem;
   border: 1px solid var(--line);
   border-radius: 1.5rem;
   overflow: hidden;
@@ -238,8 +238,8 @@ p { color: var(--muted); line-height: 1.65; }
   font-weight: 900;
 }
 .release-hero > * { position: relative; z-index: 1; }
-.release-hero h3 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.4rem); letter-spacing: -.05em; }
-.release-hero p { margin-bottom: .6rem; }
+.release-hero h3 { margin: 0; font-size: clamp(1.25rem, 2.2vw, 1.8rem); letter-spacing: -.05em; }
+.release-hero p { margin-bottom: .35rem; }
 .release-hero strong { color: var(--text); }
 
 .contact {
