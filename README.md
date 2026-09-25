@@ -1,4 +1,4 @@
-# IsraelMusic Website
+# IsileliMusic Website
 
 Static GitHub Pages site for IsileliMusic LLC.
 
